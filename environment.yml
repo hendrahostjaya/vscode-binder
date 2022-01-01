@@ -4,7 +4,3 @@ dependencies:
   - numpy
   - jupyter-server-proxy
   - code-server >=3.2
-  - software-properties-common
-  - add-apt-repository ppa:ubuntu-toolchain-r/test
-  - ocl-icd-opencl-dev
-  - libstdc++6
