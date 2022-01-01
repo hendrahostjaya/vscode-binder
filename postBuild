@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt install software-properties-common -y && add-apt-repository ppa:ubuntu-toolchain-r/test -y && apt upgrade ocl-icd-opencl-dev libstdc++6 -y
+
 # Enable the proxy extension in notebook and lab
 jupyter serverextension enable --py jupyter_server_proxy
 jupyter labextension install @jupyterlab/server-proxy
